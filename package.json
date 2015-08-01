@@ -5,6 +5,7 @@
   "description": "Ever wondered where your money goes? What do you spend the most money on? PicoBudget is a simple tool which features transactions, budgeting and reporting.",
   "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-jslint": "^0.2.2"
+    "gulp-jslint": "^0.2.2",
+    "gulp-serve": "^1.0.0"
   }
 }

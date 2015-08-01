@@ -11,6 +11,6 @@ How to get started with your own instance
 * Install [MongoDB](http://www.mongodb.org/) on your system and start the daemon
 * run 'bower install'
 * run 'npm install'
-* run 'grunt serve'
+* run 'gulp serve'
 
 and you're ready to go, the app is now listening on [http://localhost:5000](http://localhost:5000)!

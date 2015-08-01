@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var jslint = require('gulp-jslint');
+var serve = require('gulp-serve');
 
 gulp.task('jslint', function () {
   return gulp.src([
@@ -24,5 +25,10 @@ gulp.task('jslint', function () {
         stupid: true
       }));
 });
+
+gulp.task('serve', serve({
+  root: ['./'],
+  port: 5000,
+}));
 
 gulp.task('default', ['jslint']);
